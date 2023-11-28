@@ -1,0 +1,10 @@
+#form-section{
+    position: fixed;
+    height: var(--search-container-height);
+    width: inherit;
+    bottom: 0;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}

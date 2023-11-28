@@ -1,0 +1,35 @@
+#journal-page {
+    width: 100vw;
+    height: 100vh;
+    color: #121212;
+    line-height: 1.5;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#journal-page button {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+    background-color: white;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 500;
+}
+
+#journal-page button:hover {
+    cursor: pointer;
+    color: #3992ff;
+    box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.6), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+}
+
+#journal-page button:active {
+    box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.4);
+    transform: translateY(1px);
+}
+
+  
